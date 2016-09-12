@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/KarloxMartinez/gulp-django/issues"
   },
-  "homepage": "https://github.com/KarloxMartinez/gulp-django#readme"
+  "homepage": "https://github.com/KarloxMartinez/gulp-django#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
