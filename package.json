@@ -22,5 +22,9 @@
   "homepage": "https://github.com/KarloxMartinez/gulp-django#readme",
   "devDependencies": {
     "gulp": "^3.9.1"
+  },
+  "scripts" :
+  {
+    "install" : "cp gulpfile.js ../../gulpfile.js"
   }
 }
