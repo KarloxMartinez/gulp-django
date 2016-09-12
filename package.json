@@ -1,5 +1,5 @@
 {
-  "name": "gulp-django",
+  "name": "gulpfile-django",
   "version": "0.0.1",
   "description": "A package with all gulptasks used on django project",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KarloxMartinez/gulp-django.git"
+    "url": "git+https://github.com/KarloxMartinez/gulpfile-django.git"
   },
   "keywords": [
     "django",
@@ -17,9 +17,9 @@
   "author": "Luis Carlos Martinez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KarloxMartinez/gulp-django/issues"
+    "url": "https://github.com/KarloxMartinez/gulpfile-django/issues"
   },
-  "homepage": "https://github.com/KarloxMartinez/gulp-django#readme",
+  "homepage": "https://github.com/KarloxMartinez/gulpfile-django#readme",
   "devDependencies": {
     "gulp": "^3.9.1"
   },
