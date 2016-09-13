@@ -30,7 +30,6 @@
     "gulp-sass": "^2.3.2",
     "gulp-uglify": "^2.0.0",
     "gulp-watch": "^4.3.9",
-    "require-dir": "^0.3.0",
-    "run-sequence": "^1.2.2"
+    "require-dir": "^0.3.0"
   }
 }
