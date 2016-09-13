@@ -1,0 +1,16 @@
+{
+  "path" : {
+    "css": "/static/css",
+    "dist": "/static/dist",
+    "fonts": "/static/fonts",
+    "image": "/static/images",
+    "js": "/static/js",
+    "sass": "/static/sass",
+    "template": "/templates",
+    "theme": "/static/theme",
+    "vendor": "bower_components"
+  },
+  "server" : {
+    "port" : "3000"
+  }
+}
