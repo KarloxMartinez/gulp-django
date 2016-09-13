@@ -1,6 +1,6 @@
 {
   "name": "gulpfile-django",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A package with all gulptasks used on django project",
   "main": "index.js",
   "scripts": {
