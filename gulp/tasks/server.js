@@ -3,7 +3,6 @@
 var gulp        = require('gulp');
 var browserSync = require('browser-sync')
 var spawn       = require('child_process').spawn;
-var runSequence = require('run-sequence');
 
 gulp.task('run-server', [], () => {
   var runserver = spawn(

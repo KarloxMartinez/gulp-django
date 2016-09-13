@@ -11,6 +11,6 @@ gulp.task('scripts', function () {
         .pipe(concat('scripts.js'))
         .pipe(uglify())
         .pipe(gulp.dest(app.name + conf.path.dist))
-        .pipe(browserSync.stream())
+        .pipe(browserSync.reload())
         .pipe(notify('scripts task done'));
 });
