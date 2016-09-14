@@ -25,4 +25,4 @@ gulp.task('browser-sync', [], () => {
   });
 });
 
-gulp.task('serve', ['run-server', 'browser-sync', 'watch']);
+gulp.task('serve', ['run-server', 'watch', 'browser-sync']);
