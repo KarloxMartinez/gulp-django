@@ -2,7 +2,6 @@
 
 var gulp  = require('gulp');
 var browserSync = require('browser-sync');
-var wiredep = require('wiredep')();
 
 gulp.task('watch', [], function () {
     gulp.watch(app.name + conf.path.js + '/**/*.js', ['scripts']);
