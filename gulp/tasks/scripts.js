@@ -5,7 +5,7 @@ var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var browserSync = require('browser-sync').create();
 var notify = require('gulp-notify');
-var wiredep = require('wiredep')();
+var bowerFiles    = require('bower-files')();
 
 gulp.task('scripts', function () {
     gulp.src(app.name + conf.path.js + '/**/*.js')
@@ -16,9 +16,10 @@ gulp.task('scripts', function () {
 });
 
 gulp.task('scripts-vendor', function () {
-    gulp.src(wiredep.js)
+    gulp.src(bowerFiles.ext('js').files)
         .pipe(concat('component.js'))
         .pipe(uglify())
         .pipe(gulp.dest(app.name + conf.path.dist)).on('change', browserSync.reload)
         .pipe(notify('scripts-vendor task done'));
 });
+
