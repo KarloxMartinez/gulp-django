@@ -40,6 +40,7 @@ gulp-sass
 gulp-uglify
 gulp-watch
 require-dir
+wiredep
 
 **TASKS**
 
