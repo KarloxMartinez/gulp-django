@@ -77,3 +77,4 @@ This task is watching all js and scss and bower.json files and run specificaly t
  - Can add custom tasks
  - Add wiredep on sccs files
  - To handle errors
+ - Add fonts task
