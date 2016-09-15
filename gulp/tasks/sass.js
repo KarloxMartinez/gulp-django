@@ -6,12 +6,15 @@ var autoprefixer = require('gulp-autoprefixer');
 var cleanCss = require('gulp-clean-css');
 var browserSync = require('browser-sync');
 var notify = require('gulp-notify');
+var sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('sass', function () {
     gulp.src(app.name + conf.path.sass + '/**/*.{sass,scss}')
+        .pipe(sourcemaps.init({loadMaps: true}))
         .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer())
         .pipe(cleanCss())
+        .pipe(sourcemaps.write())
         .pipe(gulp.dest(app.name + conf.path.css))
         .pipe(browserSync.stream())
         .pipe(notify('sass task done'));
