@@ -10,13 +10,13 @@ var ngAnnotate = require('gulp-ng-annotate');
 var sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('scripts', function () {
-    gulp.src(app.name + conf.path.js + '/**/*.js')
+    gulp.src(conf.name + conf.path.js + '/**/*.js')
         .pipe(sourcemaps.init())
         .pipe(ngAnnotate())
         .pipe(concat('app.js'))
         .pipe(uglify())
         .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest(app.name + conf.path.dist))
+        .pipe(gulp.dest(conf.name + conf.path.dist))
         .pipe(notify('scripts task done'));
 });
 
@@ -27,7 +27,7 @@ gulp.task('scripts-vendor', function () {
         .pipe(ngAnnotate())
         .pipe(uglify())
         .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest(app.name + conf.path.dist))
+        .pipe(gulp.dest(conf.name + conf.path.dist))
         .pipe(notify('scripts-vendor task done'));
 });
 

@@ -1,0 +1,23 @@
+{
+  "path" : {
+    "compiled":{
+      "css": "/dist/static/css",
+      "fonts": "/dist/static/fonts",
+      "image": "/dist/static/images",
+      "js": "/dist/static/js"
+    },
+    "assets":{
+      "css": "/static/css",
+      "fonts": "/static/fonts",
+      "image": "/static/images",
+      "sass": "/static/sass",
+      "js": "/static/js"
+    },
+    "template": "/templates",
+    "theme": "/static/theme",
+    "vendor": "bower_components"
+  },
+  "server" : {
+    "port" : "3000"
+  }
+}
